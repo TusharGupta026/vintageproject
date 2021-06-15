@@ -1,0 +1,19 @@
+{
+  "name": "vintage-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TusharGupta026/vintageproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TusharGupta026/vintageproject/issues"
+  },
+  "homepage": "https://github.com/TusharGupta026/vintageproject#readme"
+}
