@@ -6,6 +6,6 @@
 .vintage-background{
    background-image: url("../img/backgrounds/vintage-background.png");
    background-repeat: no-repeat;
-   background-size: auto;
-   padding-bottom: 0rem;   
+   background-size: cover;
+      
 }
