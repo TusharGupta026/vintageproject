@@ -1,11 +1,6 @@
-.brand-background{
-   background-image: url("../img/backgrounds/nav-background.png");
-   background-repeat: no-repeat;
-}
-
 .vintage-background{
-   background-image: url("../img/backgrounds/vintage-background.png");
-   background-repeat: no-repeat;
-   background-size: cover;
-      
+   background-image: url("../img/backgrounds/vintage-background1.png")!important;
+   background-repeat: no-repeat!important;
+   background-size:cover!important;
+   background-attachment: scroll !important;
 }
