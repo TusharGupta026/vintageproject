@@ -1,3 +1,11 @@
 .brand-background{
-   background-color: rgb(9,49,74); 
+   background-image: url("../img/backgrounds/nav-background.png");
+   background-repeat: no-repeat;
+}
+
+.vintage-background{
+   background-image: url("../img/backgrounds/vintage-background.png");
+   background-repeat: no-repeat;
+   background-size: auto;
+   padding-bottom: 0rem;   
 }
