@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vintage Finvest Services Private Limited</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/tailwind.css">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
 </head>
-<body class="vintage-background">
-    <header>
+<body>
+    <header class="vintage-background">
       <!-- This example requires Tailwind CSS v2.0+ -->
       <!--Band-->
       <div class="max-w-auto mx-auto sm:px-6 sm:mb-2 lg:px-8 sm:bg-white bg-hidden">
@@ -418,7 +419,7 @@
             <div class="pt-5 pb-6 px-5 space-y-6 sm:space-y-8 sm:pb-8">
               <div class="flex items-center justify-between">
                 <div>
-                  <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-on-white.svg" alt="Workflow">
+                  <img class="h-8 w-auto" src="img/logos/logo.png" alt="Workflow">
                 </div>
                 <div class="-mr-2">
                   <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
@@ -433,7 +434,7 @@
                 <nav class="space-y-8">
                   <div class="grid gap-7 sm:grid-cols-2 sm:gap-y-8 sm:gap-x-4">
                     <a href="#" class="-m-3 space-x-4 flex items-center p-3 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
-                      <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                      <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white sm:h-12 sm:w-12">
                         <!-- Heroicon name: chart-bar -->
                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -444,7 +445,7 @@
                       </div>
                     </a>
                     <a href="#" class="-m-3 space-x-4 flex items-center p-3 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
-                      <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                      <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white sm:h-12 sm:w-12">
                         <!-- Heroicon name: cursor-click -->
                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
@@ -455,7 +456,7 @@
                       </div>
                     </a>
                     <a href="#" class="-m-3 space-x-4 flex items-center p-3 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
-                      <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                      <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white sm:h-12 sm:w-12">
                         <!-- Heroicon name: shield-check -->
                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -466,7 +467,7 @@
                       </div>
                     </a>
                     <a href="#" class="-m-3 space-x-4 flex items-center p-3 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
-                      <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                      <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-blue-500 text-white sm:h-12 sm:w-12">
                         <!-- Heroicon name: view-grid -->
                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
@@ -478,7 +479,7 @@
                     </a>
                   </div>
                   <div class="text-base leading-6">
-                    <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500 transition ease-in-out duration-150">
+                    <a href="#" class="font-medium text-blue-500 hover:text-blue-400 transition ease-in-out duration-150">
                       View all products &rarr;
                     </a>
                   </div>
@@ -524,9 +525,7 @@
         </div>
       </div>
       </div>
-          
-    </header>
-
+       <!--Hero Section-->
     <section >
       <main class=" mx-auto max-w-7xl px-4 sm:px-6  md:mt-16 lg:mt-28 lg:px-8 ">
         <div  class=" sm:text-center lg:text-center">
@@ -552,11 +551,159 @@
         </div>
       </main> 
     </section>
+      <!--Our Services Heading-->
+      <section class="sm:py-24 pt-16 pb-36">
+        <div class="container px-5 sm:pt-5 mx-auto">
+          <div class="flex flex-col text-center w-full mb-0 sm:mt-20">
+            <h1 class="sm:text-4xl text-3xl font-medium title-font text-gray-50 ">Our Services</h1>
+          </div>
+        </div>
+      </section>
+    </header>
+  
+<!--Carousel-->
+<section class="bg-gray-100 pb-20" >
+<!-- Display Container (not part of component) START -->
+  <div class="swiper-container mySwiper ">
+    <!-- Carousel Body -->
+    <div class="swiper-wrapper">
+        <div class="relative rounded-lg block md:flex items-center bg-gray-100  swiper-slide " style="min-height: 19rem;">
+          
+          <div class="relative w-full md:w-2/5 h-full overflow-hidden rounded-t-lg md:rounded-t-none md:rounded-l-lg" style="min-height: 19rem;">
+            <img class="absolute inset-0 w-full h-full object-cover object-center" src="img/services/portfolio-analysis.jpeg" alt="">
+          </div>
+          <div class="w-full md:w-3/5 h-full flex items-center bg-gray-100 rounded-lg">
+            <div class="p-12 md:pr-24 md:pl-16 md:py-12">
+              <h1 class="text-gray-900 sm:text-3x1 text-2xl title-font font-medium mb-2">Portfolio Analysis &amp; Investment Planning
+              </h1>
+              <p class="text-gray-600">We deal in Mutual Funds, PMS, Bonds, Private Equity/AIF, Real Estate using strategies that are appropriate to the client’s needs and consistent with their investment objectives, risk tolerance, and time horizon among other considerations.</p>
+              <button class="my-10 items-baseline inline-flex text-blue-900 bg-transparent border border-solid border-blue-900 bg-gray-50 border-0 py-2 px-6 focus:outline-none hover:bg-blue-900 hover:text-gray-50 rounded text-lg transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-110 ">
+                    Learn More
+              </button>
+            </div>
+            <svg class="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-gray-100 -ml-12" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <polygon points="50,0 100,0 50,100 0,100" />
+            </svg>
+          </div>
+        
 
-    <section class="sm:py-48 py-20">
-      
-    </section>
+        </div> 
+        <div class="relative rounded-lg block md:flex items-center bg-gray-100 swiper-slide " style="min-height: 19rem;">
+          
+          <div class="relative w-full md:w-2/5 h-full overflow-hidden rounded-t-lg md:rounded-t-none md:rounded-l-lg" style="min-height: 19rem;">
+            <img class="absolute inset-0 w-full h-full object-cover object-center" src="img/services/tax-planning.jpeg" alt="">
+          </div>
+          <div class="w-full md:w-3/5 h-full flex items-center bg-gray-100 rounded-lg">
+            <div class="p-12 md:pr-24 md:pl-16 md:py-12">
+              <h1 class="text-gray-900 sm:text-3x1 text-2xl title-font font-medium mb-2">Personal Tax Planning &amp; Investment Planning
+              </h1>
+              <p class="text-gray-600">Analysis of financial situation and efficient planning for taxes, loan repayments, retirement, education of children and a host of other solutions.</p>
+              <button class="my-10 items-baseline inline-flex text-blue-900 bg-transparent border border-solid border-blue-900 bg-gray-50 border-0 py-2 px-6 focus:outline-none hover:bg-blue-900 hover:text-gray-50 rounded text-lg transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-110 ">
+                    Learn More
+              </button>
+            </div>
+            <svg class="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-gray-100 -ml-12" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <polygon points="50,0 100,0 50,100 0,100" />
+            </svg>
+          </div>
+        
 
+        </div> 
+        <div class="relative rounded-lg block md:flex items-center bg-gray-100  swiper-slide " style="min-height: 19rem;">
+          
+          <div class="relative w-full md:w-2/5 h-full overflow-hidden rounded-t-lg md:rounded-t-none md:rounded-l-lg" style="min-height: 19rem;">
+            <img class="absolute inset-0 w-full h-full object-cover object-center" src="img/services/estate-planning.jpeg" alt="">
+          </div>
+          <div class="w-full md:w-3/5 h-full flex items-center bg-gray-100 rounded-lg">
+            <div class="p-12 md:pr-24 md:pl-16 md:py-12">
+              <h1 class="text-gray-900 sm:text-3x1 text-2xl title-font font-medium mb-2">Estate Planning
+              </h1>
+              <p class="text-gray-600">Cater to client's needs for estate and succession planning through the creation of wills/trusts. Guide clients on what would be the most hassle free and costefficient way to bequest their assets to their heirs. Formulate family and business constitutions / charters for smooth running of the business.</p>
+              <button class="my-10 items-baseline inline-flex text-blue-900 bg-transparent border border-solid border-blue-900 bg-gray-50 border-0 py-2 px-6 focus:outline-none hover:bg-blue-900 hover:text-gray-50 rounded text-lg transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-110 ">
+                    Learn More
+              </button>
+            </div>
+            <svg class="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-gray-100 -ml-12" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <polygon points="50,0 100,0 50,100 0,100" />
+            </svg>
+          </div>
+        
+
+        </div>
+        <div class="relative rounded-lg block md:flex items-center bg-gray-100 swiper-slide " style="min-height: 19rem;">
+          
+          <div class="relative w-full md:w-2/5 h-full overflow-hidden rounded-t-lg md:rounded-t-none md:rounded-l-lg" style="min-height: 19rem;">
+            <img class="absolute inset-0 w-full h-full object-cover object-center" src="img/services/multi-generational-wealth-planning.jpeg" alt="">
+          </div>
+          <div class="w-full md:w-3/5 h-full flex items-center bg-gray-100 rounded-lg">
+            <div class="p-12 md:pr-24 md:pl-16 md:py-12">
+              <h1 class="text-gray-900 sm:text-3x1 text-2xl title-font font-medium mb-2">Multi-Generational Wealth Management
+              </h1>
+              <p class="text-gray-600">Multi-generational wealth management helps ensure that a family’s wealth and legacy are managed suitably and passed from one generation to the next, providing a healthy financial picture for the younger generations.</p>
+              <button class="my-10 items-baseline inline-flex text-blue-900 bg-transparent border border-solid border-blue-900 bg-gray-50 border-0 py-2 px-6 focus:outline-none hover:bg-blue-900 hover:text-gray-50 rounded text-lg transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-110 ">
+                    Learn More
+              </button>
+            </div>
+            <svg class="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-gray-100 -ml-12" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <polygon points="50,0 100,0 50,100 0,100" />
+            </svg>
+          </div>
+        
+
+        </div> 
+        <div class="relative rounded-lg block md:flex items-center bg-gray-100  swiper-slide " style="min-height: 19rem;">
+          
+          <div class="relative w-full md:w-2/5 h-full overflow-hidden rounded-t-lg md:rounded-t-none md:rounded-l-lg" style="min-height: 19rem;">
+            <img class="absolute inset-0 w-full h-full object-cover object-center" src="img/services/treasury-management.jpeg" alt="">
+          </div>
+          <div class="w-full md:w-3/5 h-full flex items-center bg-gray-100 rounded-lg">
+            <div class="p-12 md:pr-24 md:pl-16 md:py-12">
+              <h1 class="text-gray-900 sm:text-3x1 text-2xl title-font font-medium mb-2">Treasury Management
+              </h1>
+              <p class="text-gray-600">Cash flow management for organisations including SMEs and startups. Generating maximum returns from surplus funds available in organisations without affecting immediate requirements.</p>
+              <button class="my-10 items-baseline inline-flex text-blue-900 bg-transparent border border-solid border-blue-900 bg-gray-50 border-0 py-2 px-6 focus:outline-none hover:bg-blue-900 hover:text-gray-50 rounded text-lg transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-110 ">
+                    Learn More
+              </button>
+            </div>
+            <svg class="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-gray-100 -ml-12" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <polygon points="50,0 100,0 50,100 0,100" />
+            </svg>
+          </div>
+        
+
+        </div> 
+        <div class="relative rounded-lg block md:flex items-center bg-gray-100  swiper-slide " style="min-height: 19rem;">
+          
+          <div class="relative w-full md:w-2/5 h-full overflow-hidden rounded-t-lg md:rounded-t-none md:rounded-l-lg" style="min-height: 19rem;">
+            <img class="absolute inset-0 w-full h-full object-cover object-center" src="img/services/charity.jpeg" alt="">
+          </div>
+          <div class="w-full md:w-3/5 h-full flex items-center bg-gray-100 rounded-lg">
+            <div class="p-12 md:pr-24 md:pl-16 md:py-12">
+              <h1 class="text-gray-900 sm:text-3x1 text-2xl title-font font-medium mb-2">Philanthropy and Charitable Planning
+              </h1>
+              <p class="text-gray-600">Tie ups with various NGo's and organisations in the social sector to further the cause of charity for our clients.
+              </p>
+              <button class="my-10 items-baseline inline-flex text-blue-900 bg-transparent border border-solid border-blue-900 bg-gray-50 border-0 py-2 px-6 focus:outline-none hover:bg-blue-900 hover:text-gray-50 rounded text-lg transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-110 ">
+                    Learn More
+              </button>
+            </div>
+            <svg class="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-gray-100 -ml-12" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <polygon points="50,0 100,0 50,100 0,100" />
+            </svg>
+          </div>
+        
+
+        </div> 
+    </div>
+    <div class="absolute swiper-button-prev top-0 sm:mt-48 mt-32 "></div>
+    <div class="absolute swiper-button-next top-0 sm:mt-48 mt-32 "></div>
+    <div class="swiper-pagination mb-2"></div>   
+  </div>
+  <!-- Display Container (not part of component) END -->    
+</section>
+
+ <!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script type="text/javascript" src="js/tailwind.js"></script>    
 </body>
 </html>
