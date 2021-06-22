@@ -7,6 +7,6 @@
 }
 /* Carousel Container*/
 .swiper-container {
-   width: 99.9%;
+   width: 100%!important;
    height:50%;
  }
